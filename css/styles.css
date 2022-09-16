@@ -1,0 +1,22 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+}
+
+.logo span {
+    color: #2196F3;
+}
+
