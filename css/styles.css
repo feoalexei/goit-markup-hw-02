@@ -1,10 +1,16 @@
 :root {
+    --black-color: #000;
     --dark-color:#212121; 
+    --grey-color:#757575;
+    --blue-color:#2196F3;
+    --white-color:#fff;
+    --dark-background:#2F303A; 
+    --light-background:#F5F4FA;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: ver(--dark-color);
+    color: var(--grey-color);
 }
 
 li {
@@ -17,7 +23,7 @@ a {
 }
 
 h1,h2,h3 {
-    color: #212121;
+    color: var(--dark-color);
 }
 
 section h2 {
@@ -44,36 +50,30 @@ section h2 {
     font-size: 26px;
     font-weight: 700;
     line-height: 1.9;
-    color: #000;
+    color: var(--black-color);
 }
 
 .logo span {
-    color: #2196F3;
+    color: var(--blue-color);
 }
-
-/* header a:not(.logo):hover,
-header a:not(.logo):focus {
-    color: #2196F3;
-} */
 
 nav a:hover,
 nav a:focus,
 .contacts a:hover,
 .contacts a:focus  {
-    color: #2196F3;
+    color: var(--blue-color);
 } 
 
 /*--------- SOLUTIONS --------*/
 .solutions {
-    background-color: #2F303A;
+    background-color: var(--dark-background);
     text-align: center;
 }
 
 .solutions h1 {
     font-size: 44px;
-    font-weight: 900;
     line-height: 1.4;
-    color:#fff;
+    color:var(--white-color);
     text-transform: uppercase;
 }
 
@@ -81,76 +81,69 @@ nav a:focus,
     height: 50px;
     font-weight: 700;
     line-height: 1.9;
-    color: #fff;
-    background-color: #2196F3;
+    color: var(--white-color);
+    background-color: var(--blue-color);
 }
 
 /*--------- FEATURES --------*/
 .features {
     font-size: 14px;
-    font-weight: 700;
+}
+
+.features h3{
+    line-height: 1.14;
 }
 
 .features p {
-    font-weight: 400;
     line-height: 1.7;
 }
 
-
 /*--------- TEAM --------*/
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--light-background);
 }
 
 .team p {
     line-height: 1.19;
 }
 
-
 /*--------- PORTFOLIO --------*/
 .portfolio .btn {
     height: 38px;
     font-weight: 500;
     line-height: 1.6;
-    background-color: #F5F4FA;
+    background-color: var(--light-background);
 }
 
 .portfolio .btn:hover,
 .portfolio .btn:focus {
-    color: #fff;
-    background-color: #2196F3;
+    color: var(--white-color);
+    background-color: var(--blue-color);
 }
 
 .portfolio h3 {
     font-size: 18px;
-    font-weight: 700;
     line-height: 2;
 }
 
 .portfolio p {
-    font-weight: 400;
     line-height: 1.875;
 }
 
 /*--------- FOOTER --------*/
 .footer {
-    background-color: #2F303A;
+    background-color: var(--dark-background);
     font-size: 14px;
 }
 
 .footer .logo,
 .footer a[href*="https"] {
-    color: #fff;
-}
-
-.footer a {
-    font-style: normal;
-    color: #757575;
+    color: var(--white-color);
 }
 
 .footer address {
-    line-height: 1.7;
+    font-style: normal;
+    line-height: 1.71;
+    color: var(--grey-color);
 }
-
-
 
