@@ -23,20 +23,17 @@ a {
     color: inherit;
 }
 
-h1,h2,h3 {
-    color: var(--dark-color);
-}
-
-section h2 {
-    font-size: 36px;
-    line-height: 1.17;
-}
-
 .btn {
     cursor: pointer;
     border: none;
     border-radius: 5px;
     font-size: 16px;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--dark-color);
 }
 
 /*---------- HEADER ----------*/
@@ -98,6 +95,7 @@ nav a:focus,
 .features h3 {
     font-size: inherit;
     line-height: 1.14;
+    color: var(--dark-color);
 }
 
 .features p {
@@ -111,6 +109,7 @@ nav a:focus,
 
 .team h3 {
     font-size: 16px;
+    color: var(--dark-color);
 }
 
 .team p {
@@ -134,6 +133,7 @@ nav a:focus,
 .portfolio h2 {
     font-size: 18px;
     line-height: 2;
+    color: var(--dark-color);
 }
 
 .portfolio p {
